@@ -22,4 +22,4 @@ class Student < ActiveRecord::Base
       self.all.select {|student| student.name.capitalize.include?(name.capitalize)}
     end
   end
-
+end
